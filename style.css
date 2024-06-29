@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background: black;
+  height: 100vh;
+  
+}
+.models{
+  display: none;
+}
+
+.header {
+  width: 100vw;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/img/backgrounH.jpg");
+  box-shadow: 0 0 10px darkorange;
+
+
+}
+
+.logo img {
+  width: 250px;
+
+}
+
+.navegation {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 50px;
+  gap: 5px;
+  padding: 5px;
+  background: black;
+  margin-top: 8px;
+}
+
+.navegation li a {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Poetsen One", sans-serif;
+  width: 198px;
+  height: 40px;
+  background: darkorange;
+  color: white;
+  text-shadow: 4px 2px 0 #000;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid darkorange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 500ms ease-in-out;
+}
+
+.item-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 140px;
+  margin-top: 5px;
+  background: #19191a;
+  border-radius: 10px;
+  color: white;
+  
+
+}
+.item-img{
+    margin-right: 10px;
+  width: 130px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.item-img img{
+    width: 130px;
+    height: 130px;
+    border-radius: 20px;
+    border: 2px solid darkorange;
+}
+.item-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 250px;
+  margin-left: 10px;
+
+}
+.name{
+   font-family: "Poetsen One", sans-serif;
+   font-size: 20px;
+   text-shadow: 2px 0px 0px darkorange;
+}
+.desc {
+  color: gray;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.price {
+  font-size: 18px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkorange;
+}
+.fixa {
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+}
+.burguer.active,
+.drinks.active{
+  color: darkorange;
+  background: black;
+  border: 2px solid darkorange;
+ 
+}
+.whats i {
+  font-size: 35px;
+  position: absolute;
+  right: 40px;
+  top: 25px;
+  color: darkorange;
+}
+footer{
+  width: 100vw;
+  height: 30px;
+  background: #19191a;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  
+}
+.area{
+padding-bottom: 90px;
+}
